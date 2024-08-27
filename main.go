@@ -1,12 +1,7 @@
 package main
 
-import (
-	"fmt"
-
-	"none.com/equ_solve/lib"
-)
-
-func main() {
-	equ := "3 + 5 a - b * h"
-	fmt.Println(lib.EuqToArr(equ))
-}
+const start = `*********************解方程小程序*********************
+输入的方程中:
+->只支持次数1~4的整式方程
+->数字,符号和字母请用空格隔开
+->乘以一个括号请把乘号写在前面`
